@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>🌟 Pathfinder</title> 
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container" role="main">
+    <header>
+      <h1>🌟 Pathfinder</h1>
+      <p class="subtitle">A career quiz by Group 11</p>
+    </header>
+
+    <form action="/cgi-bin/quiz.exe" method="get" aria-label="Pathfinder">
+      <!-- Question 1 -->
+      <fieldset>
+        <legend>1. What school project do you like best?</legend>
+        <label for="q1" class="sr-only">Choose your preferred school project</label>
+        <select name="q1" id="q1" required>
+          <option value="" disabled selected hidden>-- Select an option --</option>
+          <option value="a">Doing a science experiment</option>
+          <option value="b">Planning a small business</option>
+          <option value="c">Making a video or poster</option>
+        </select>
+      </fieldset>
+
+      <!-- Question 2 -->
+      <fieldset>
+        <legend>2. Which subject do you want to learn more about?</legend>
+        <label for="q2" class="sr-only">Choose a subject</label>
+        <select name="q2" id="q2" required>
+          <option value="" disabled selected hidden>-- Select an option --</option>
+          <option value="a">Science</option>
+          <option value="b">Business</option>
+          <option value="c">Art</option>
+        </select>
+      </fieldset>
+
+      <!-- Question 3 -->
+      <fieldset>
+        <legend>3. What job sounds fun when you grow up?</legend>
+        <label for="q3" class="sr-only">Choose a job</label>
+        <select name="q3" id="q3" required>
+          <option value="" disabled selected hidden>-- Select an option --</option>
+          <option value="a">Scientist</option>
+          <option value="b">Business owner</option>
+          <option value="c">Designer</option>
+        </select>
+      </fieldset>
+
+      <!-- Question 4 -->
+      <fieldset>
+        <legend>4. What would you do with a free afternoon at school?</legend>
+        <label for="q4" class="sr-only">Choose an activity</label>
+        <select name="q4" id="q4" required>
+          <option value="" disabled selected hidden>-- Select an option --</option>
+          <option value="a">Build a robot</option>
+          <option value="b">Plan a school sale</option>
+          <option value="c">Practice for a play</option>
+        </select>
+      </fieldset>
+
+      <!-- Question 5 -->
+      <fieldset>
+        <legend>5. What would you study for a school presentation?</legend>
+        <label for="q5" class="sr-only">Choose a presentation topic</label>
+        <select name="q5" id="q5" required>
+          <option value="" disabled selected hidden>-- Select an option --</option>
+          <option value="a">Solar power</option>
+          <option value="b">How stores sell things</option>
+          <option value="c">The story of music or art</option>
+        </select>
+      </fieldset>
+
+      <div class="form-actions">
+        <button type="submit">Get My Recommendation</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
