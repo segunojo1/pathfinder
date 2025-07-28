@@ -1,4 +1,3 @@
-```markdown
 # 🧠 C++ + HTML CGI Quiz App (Using XAMPP Apache)
 
 This project integrates **C++ CGI** with **HTML/CSS** to create a dynamic quiz web application running on **XAMPP's Apache server**.
